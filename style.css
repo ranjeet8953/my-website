@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 74px;
+    background-color: #53698f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+}
+ .menu{
+    width: 65%;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+ }
+
+ .meni li{
+    margin-left: 30px;
+ }
+
+ .menu li a{
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease;
+ }
+
+ .menu li a:hover{
+    color: #ccc;
+    }
+
+    .search{
+        display: flex;
+        align-items: center;
+        margine-right: 0;
+ }
+
+.search form{
+    display: flex;
+    margine: 0;
+}
+
+.search input{
+    padding: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius:  5px;
+    margine-right: 10px;
+    font-size: 16px;
+
+}
+
+.search input:hover{
+    border: 1px solid #72a0d4;
+}
+
+.search button{
+    padding: 10px;
+    backgrround-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 19px;
+    cursor: pointer;
+    }
+
+    .search button:hover{
+        background-color: #ccc;
+    }
+
+    body{
+        background-image: url('image/pexels-quang-nguyen-vinh-222549-2166711.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0;
+        padding: 0;   
+        
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
